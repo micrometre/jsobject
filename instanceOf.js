@@ -1,4 +1,4 @@
-exports.myDateTime = function () {
+exports.instaceOf = function () {
   let Bird = function (name, color) {
     this.name = name;
     this.color = color;
@@ -7,7 +7,7 @@ exports.myDateTime = function () {
 
   let crow = new Bird("Alexis", "black");
 
-  crow instanceof Bird;
+console.log(crow instanceof Bird)
 
 
   let canary = {
@@ -16,9 +16,5 @@ exports.myDateTime = function () {
     numLegs: 2
   };
 
-  canary instanceof Bird;
-
-
-
-  return Date();
+console.log(canary instanceof Bird)
 };

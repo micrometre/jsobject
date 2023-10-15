@@ -1,4 +1,3 @@
-var dt = require('./instanceOf');
+var bird = require('./instanceOf');
 
-
-console.log(dt.myDateTime())
+bird.instaceOf()
