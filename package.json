@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "deno run  --allow-all  --watch server.js"
+    "dev": "nodemon server.js"
   },
   "name": "jsobject",
   "version": "1.0.0",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/micrometre/jsobject/issues"
   },
-  "homepage": "https://github.com/micrometre/jsobject#readme"
+  "homepage": "https://github.com/micrometre/jsobject#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }

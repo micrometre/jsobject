@@ -1,7 +1,4 @@
-function Dog(name, color) {
-  this.name = name;
-  this.color = color;
-  this.numLegs = 4;
-}
-let terrier = new Dog("Charlie","red")
-console.log(terrier)
+var dt = require('./instanceOf');
+
+
+console.log(dt.myDateTime())
