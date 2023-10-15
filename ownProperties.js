@@ -1,10 +1,8 @@
 export function ownProperties () {
-
     function Bird(name) {
         this.name = name;
         this.numLegs = 2;
       }
-      
       let canary = new Bird("Tweety");
       let ownProps = [];
       // Only change code below this line
@@ -13,7 +11,5 @@ export function ownProperties () {
           ownProps.push(property);
         }
       }
-      
       console.log(ownProps.length);
-  
   }
