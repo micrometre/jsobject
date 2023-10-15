@@ -1,16 +1,7 @@
-var express = require("express")
 
-
-var app = express()
-
-
-
-app.get('/', (req, res) => {
-  res.send('Hello World!')
-})
-
-
-
-
-app.listen(4000)
-console.log("http://localhost:4000")
+//Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
+let dog = {
+    name: "Aflac",
+    numLegs: 2
+  };
+console.log(dog)
