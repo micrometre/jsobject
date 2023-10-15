@@ -1,0 +1,28 @@
+{
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "devDependencies": {
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0"
+  },
+  "name": "jsobject",
+  "version": "1.0.0",
+  "description": "object oriented programming js",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "github.com/micrometre/jsobject"
+  },
+  "author": "Henok Wehibe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micrometre/jsobject/issues"
+  },
+  "homepage": "https://github.com/micrometre/jsobject#readme"
+}
