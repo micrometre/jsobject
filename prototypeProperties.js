@@ -1,8 +1,16 @@
-export function prototypeProperties (){
+export function prototypeProperties() {
+    function Dog(name) {
+        this.name = name;
+        Dog.prototype.numLegs = 4
 
-console.log(1111)
-console.log(1111)
-console.log(1111)
+    }
+
+
+
+    // Only change code above this line
+    let beagle = new Dog("Snoopy");
+    console.log(beagle.name)
+    console.log(beagle.numLegs)
 
 
 
