@@ -1,15 +1,6 @@
 {
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "nodemon server.js"
-  },
-  "devDependencies": {
-    "graphql": "^16.8.1",
-    "nodemon": "^3.0.1"
-  },
-  "dependencies": {
-    "express": "^4.18.2",
-    "express-graphql": "^0.12.0"
+    "dev": "deno run  --allow-all  --watch server.js"
   },
   "name": "jsobject",
   "version": "1.0.0",

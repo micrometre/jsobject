@@ -1,7 +1,7 @@
-
-//Create a dog object with name and numLegs properties, and set them to a string and a number, respectively.
-let dog = {
-    name: "Aflac",
-    numLegs: 2
-  };
-console.log(dog)
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+let terrier = new Dog("Charlie","red")
+console.log(terrier)
