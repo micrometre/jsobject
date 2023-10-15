@@ -1,4 +1,4 @@
-exports.instaceOf = function () {
+export function instaceOf () {
   let Bird = function (name, color) {
     this.name = name;
     this.color = color;
@@ -19,4 +19,4 @@ exports.instaceOf = function () {
   let myHouse = new House(2)
   console.log(myHouse, myHouse instanceof House)
 
-};
+}

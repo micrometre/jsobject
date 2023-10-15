@@ -4,6 +4,7 @@
   },
   "name": "jsobject",
   "version": "1.0.0",
+  "type": "module",
   "description": "object oriented programming js",
   "main": "server.js",
   "repository": {

@@ -1,5 +1,5 @@
-var bird = require('./instanceOf');
+import { instaceOf } from './instanceOf.js';
 
-bird.instaceOf()
+instaceOf()
 
 
