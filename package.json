@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "bun": "bun run --watch server.js"
   },
   "name": "jsobject",
   "version": "1.0.0",
