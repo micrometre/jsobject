@@ -5,6 +5,21 @@ export function instaceOf() {
     this.numLegs = 2;
   }
   let crow = new Bird("Alexis", "black");
+  
+  
+  
+  let ownProps = [];
+    
+  for (let property in crow) {
+    if(crow.hasOwnProperty(property)) {
+      ownProps.push(property);
+    }
+  }
+
+  
+  
+  
+  
   console.log(crow, crow instanceof Bird)
 
 }

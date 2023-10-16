@@ -1,15 +1,17 @@
 export function ownProperties () {
-    function Bird(name) {
+    function Bird(name, color) {
         this.name = name;
         this.numLegs = 2;
+        this.color= color
       }
-      let canary = new Bird("Tweety");
+      let canary = new Bird("Tweety", "Black");
+    
       let ownProps = [];
-      // Only change code below this line
+    
       for (let property in canary) {
         if(canary.hasOwnProperty(property)) {
           ownProps.push(property);
         }
       }
-      console.log(ownProps.length);
+      console.log(ownProps);
   }
